@@ -1,0 +1,20 @@
+[project]
+name = "gemini-see-earth"
+version = "0.1.0"
+description = "How blind Geminis see the Earth — Zero-tool coordinate land/water world map benchmark using the public google-genai SDK"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Wei (Jack) Sun" }
+]
+dependencies = [
+  "google-genai>=1.0.0",
+  "numpy>=1.24.0",
+  "pillow>=10.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Jacksunwei/gemini-see-earth"
+Repository = "https://github.com/Jacksunwei/gemini-see-earth"
+Author = "https://jacksunwei.me/"
